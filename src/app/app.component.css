@@ -1,0 +1,43 @@
+/* Place your CSS styles in this file */
+.container {
+    background-color: #fed4de;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+html {
+    background: #fed4de;
+}
+
+img {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.rsvp-button {
+    font-family: cinzel;
+    letter-spacing: 2px;
+    border: none;
+    color: grey;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fed4de;
+    position: absolute;
+    top: 93%;
+    left: 140%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+    /* .rsvp-button {
+          top: 50%;
+    } */
+}
