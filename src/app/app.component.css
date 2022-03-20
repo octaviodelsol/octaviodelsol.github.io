@@ -1,6 +1,6 @@
 /* Place your CSS styles in this file */
 .container {
-    background-color: #fed4de;
+    background: #fed4de;
     position: relative;
     width: 100%;
     max-width: 400px;
@@ -11,6 +11,7 @@ html {
 }
 
 img {
+    max-width: 400px;
     height: auto;
     display: block;
     margin-left: auto;
@@ -31,13 +32,13 @@ img {
     background-color: #fed4de;
     position: absolute;
     top: 93%;
-    left: 140%;
+    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
 
 @media only screen and (max-width: 600px) {
-    /* .rsvp-button {
-          top: 50%;
-    } */
+    .container {
+        max-width: 400px;
+    }
 }
